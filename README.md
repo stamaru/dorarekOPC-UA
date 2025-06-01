@@ -7,10 +7,6 @@ dorarekOPC-UA/
 ├── iac/                # Infrastructure as Code (SAM または CDK)
 ├── libs/               # 共有ライブラリ、ユーティリティ、Lambdaレイヤー
 ├── services/           # 個別のマイクロサービスまたはLambda関数グループ
-│   ├── service-a/
-│   │   └──...
-│   └── service-b/
-│       └──...
 ├── scripts/            # ビルド、デプロイ、ユーティリティスクリプト
 ├── tests/              # 統合テストおよびエンドツーエンド(E2E)テスト
 ├──.gitignore
