@@ -8,9 +8,9 @@ dorarekOPC-UA/
 ├── services/           # 個別のマイクロサービスまたはLambda関数グループ
 ├── scripts/            # ビルド、デプロイ、ユーティリティスクリプト
 ├── tests/              # 統合テストおよびエンドツーエンド(E2E)テスト
-├──.gitignore
-├── LICENSE
-├── README.md           # 
+├──.gitignore           # gitignore
+├── LICENSE             #
+├── README.md           # ルートディレクトリ構造を示す本資料 
 ├── package.json        # (Node.jsベースのモノレポ管理ツール用、例: Lerna, Nx, pnpm workspaces)
 ├── CLAUDE.md           # CALUDE CODE
 └──...                 # その他のルートレベル設定ファイル

@@ -4,7 +4,7 @@ your-monorepo-project/
 │   │
 │   ├── 01_overview/                  # プロジェクト全体の概要と目標
 │   │   ├── README.md
-│   │   └── project_goals.md
+│   │   └─ project_goals.md
 │   │
 │   ├── 02_architecture/              # アーキテクチャ設計関連
 │   │   ├── README.md                 # アーキテクチャセクションの概要
