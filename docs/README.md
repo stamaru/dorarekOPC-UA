@@ -11,7 +11,8 @@ your-monorepo-project/
 │   │   ├── system_overview.md        # システム全体のアーキテクチャ概要
 │   │   ├── components/               # 主要コンポーネントごとの詳細設計
 │   │   │   ├── README.md
-│   │   │   ├── frontend_architecture.md
+│   │   │   ├── edge_console_app_architecture.md # エッジ側アプリのアーキテクチャ
+│   │   │   ├── cloud_admin_app_architecture.md  # クラウド側アプリのアーキテクチャ
 │   │   │   ├── backend_api_architecture.md
 │   │   │   └── database_design.md
 │   │   ├── diagrams/                 # アーキテクチャ図 (C4モデル、シーケンス図など)

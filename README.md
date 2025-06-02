@@ -1,8 +1,7 @@
 dorarekOPC-UA/
-├──.github/            # GitHub固有のファイル (ワークフロー、テンプレート)
-├──.junie/             # オプション: AIコーディングアシスタント用ガイドライン (例: Junie AI)
+├──.github/             # GitHub固有のファイル (ワークフロー、テンプレート)
 ├── apidocs/            # API仕様書 (例: OpenAPI)
-├── apps/            # API仕様書 (例: OpenAPI)
+├── apps/               # フロントエンドアプリケーション群
 ├── docs/               # プロジェクトドキュメント (マニュアル、アーキテクチャ図)
 ├── iac/                # Infrastructure as Code (SAM または CDK)
 ├── libs/               # 共有ライブラリ、ユーティリティ、Lambdaレイヤー
@@ -11,8 +10,7 @@ dorarekOPC-UA/
 ├── tests/              # 統合テストおよびエンドツーエンド(E2E)テスト
 ├──.gitignore
 ├── LICENSE
-├── README.md
+├── README.md           # 
 ├── package.json        # (Node.jsベースのモノレポ管理ツール用、例: Lerna, Nx, pnpm workspaces)
-├── pnpm-workspace.yaml # (pnpm workspaces を使用する場合)
-├── turbo.json          # (Turborepo を使用する場合)
+├── CLAUDE.md           # CALUDE CODE
 └──...                 # その他のルートレベル設定ファイル
