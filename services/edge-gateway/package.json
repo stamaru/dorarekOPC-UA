@@ -1,0 +1,30 @@
+{
+  "name": "edge-gateway",
+  "version": "0.1.0",
+  "description": "Edge Gateway Service for OPC-UA triggered video recording system",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "test:opcua": "node src/opcua-client/test/simple-client-test.js"
+  },
+  "keywords": [
+    "opcua",
+    "edge",
+    "gateway",
+    "video",
+    "recording"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-opcua": "^2.115.0",
+    "winston": "^3.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  }
+}
