@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Data directories
+data/buffer/*
+data/events/*
+!data/buffer/.gitkeep
+!data/events/.gitkeep
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Local configuration
+config/local.json
+config/local.yaml
